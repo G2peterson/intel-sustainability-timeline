@@ -1,124 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>Intel Sustainability Timeline</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header class="hero">
-    <div class="hero-inner">
-      <p class="kicker">Week 3 Project</p>
-      <h1>Intel Sustainability Timeline</h1>
-      <p class="sub">
-        A clean, responsive timeline showing key sustainability milestones.
-        Hover a milestone to reveal details, on mobile tap and scroll.
-      </p>
-    </div>
+  <header>
+    <h1>Intel Sustainability Timeline</h1>
+    <p>Major milestones in Intel's sustainability journey</p>
   </header>
 
-  <main class="wrap">
-    <section class="intro">
-      <h2>Timeline Overview</h2>
-      <p>
-        Desktop: horizontal timeline with hover details.
-        Mobile: stacked cards for easy reading.
-      </p>
-    </section>
+  <section class="timeline">
 
-    <section class="timeline" aria-label="Intel sustainability milestones timeline">
-      <div class="track">
-
-        <article class="milestone" tabindex="0">
-          <div class="top">
-            <span class="year">2019</span>
-            <h3 class="title">RISE Strategy</h3>
-          </div>
-          <img class="img" src="img/milestone-2019.jpg" alt="Abstract sustainability strategy image" />
-          <p class="summary">A framework for responsible, inclusive, sustainable, enabling actions.</p>
-          <div class="details">
-            <p>RISE organizes goals into measurable programs and long term targets.</p>
-          </div>
-        </article>
-
-        <article class="milestone" tabindex="0">
-          <div class="top">
-            <span class="year">2020</span>
-            <h3 class="title">Renewable Energy</h3>
-          </div>
-          <img class="img" src="img/milestone-2020.jpg" alt="Clean energy concept image" />
-          <p class="summary">Scaling renewable electricity to reduce operational emissions.</p>
-          <div class="details">
-            <p>Progress depends on efficiency, sourcing, and reliable grid partnerships.</p>
-          </div>
-        </article>
-
-        <article class="milestone" tabindex="0">
-          <div class="top">
-            <span class="year">2021</span>
-            <h3 class="title">Water Stewardship</h3>
-          </div>
-          <img class="img" src="img/milestone-2021.jpg" alt="Water stewardship concept image" />
-          <p class="summary">Conservation and watershed restoration as local impact work.</p>
-          <div class="details">
-            <p>Projects focus on conservation, recycling, and restoration partnerships.</p>
-          </div>
-        </article>
-
-        <article class="milestone" tabindex="0">
-          <div class="top">
-            <span class="year">2022</span>
-            <h3 class="title">Net Zero Path</h3>
-          </div>
-          <img class="img" src="img/milestone-2022.jpg" alt="Factory and clean air concept image" />
-          <p class="summary">Commitment toward net zero for Scope 1 and 2 by 2040.</p>
-          <div class="details">
-            <p>Combines clean power, process improvements, and accountable reporting.</p>
-          </div>
-        </article>
-
-        <article class="milestone" tabindex="0">
-          <div class="top">
-            <span class="year">2023</span>
-            <h3 class="title">Circular Economy</h3>
-          </div>
-          <img class="img" src="img/milestone-2023.jpg" alt="Recycling and circular materials concept image" />
-          <p class="summary">Reduce waste and keep materials in use longer through reuse and recycling.</p>
-          <div class="details">
-            <p>Circular programs reduce landfill and improve material recovery rates.</p>
-          </div>
-        </article>
-
-        <article class="milestone" tabindex="0">
-          <div class="top">
-            <span class="year">2030</span>
-            <h3 class="title">Scaling Targets</h3>
-          </div>
-          <img class="img" src="img/milestone-2030.jpg" alt="Roadmap and targets concept image" />
-          <p class="summary">Long term goals expand across operations and supply chain impact.</p>
-          <div class="details">
-            <p>Measurement, incentives, and execution are what make targets real.</p>
-          </div>
-        </article>
-
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Intel_headquarters.jpg" alt="Intel Headquarters">
+      <div class="card-content">
+        <h2>2008</h2>
+        <p>Intel becomes the largest voluntary purchaser of green power in the U.S.</p>
       </div>
-    </section>
+    </div>
 
-    <section class="note">
-      <h2>How it works</h2>
-      <ul>
-        <li>Hover a milestone to reveal details.</li>
-        <li>Keyboard: Tab to focus a card and reveal details.</li>
-        <li>Mobile: cards stack vertically for readability.</li>
-      </ul>
-    </section>
-  </main>
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Solar_panels.jpg" alt="Solar Energy">
+      <div class="card-content">
+        <h2>2012</h2>
+        <p>Achieved 100% renewable energy usage across U.S. operations.</p>
+      </div>
+    </div>
 
-  <footer class="footer">
-    <p>Gary Peterson, Week 3, Intel Sustainability Timeline</p>
-  </footer>
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Water_recycling.jpg" alt="Water Recycling">
+      <div class="card-content">
+        <h2>2017</h2>
+        <p>Restored 100% of global water use through conservation projects.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Carbon_neutral_icon.png" alt="Carbon Neutral">
+      <div class="card-content">
+        <h2>2022</h2>
+        <p>Committed to achieving net-zero greenhouse gas emissions by 2040.</p>
+      </div>
+    </div>
+
+  </section>
 
 </body>
+</html>
 </html>
